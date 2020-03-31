@@ -1,15 +1,20 @@
 # SQL-Cheat-Sheet
 
 Connect to the Postgres REPL
-
+```````
 $ psql
+```````
+
 Postgres REPL Commands
-
-\q Quit Database
-
-\l List Databases
-
-\i import
+```
+\q  Quit Database
+```
+```
+\l  List Databases
+```
+```
+\i  import
+```
 
 CREATE DATABASE database_name; Create a database
 
