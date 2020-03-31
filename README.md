@@ -68,7 +68,8 @@ Find all rows that a given value matches a column's value.
 `SELECT <columns> FROM <table> WHERE <column name> = <value>;`
 
 Examples:
-`
+
+```
 SELECT * FROM contacts WHERE first_name = "Andrew";
 
 SELECT first_name, email FROM users WHERE last_name = "Chalkley";
@@ -76,7 +77,7 @@ SELECT first_name, email FROM users WHERE last_name = "Chalkley";
 SELECT name AS "Product Name" FROM products WHERE stock_count = 0;
 
 SELECT title "Book Title" FROM books WHERE year_published = 1999;
-`
+```
 Adding a Row to a Table
 
 # Inserting a single row:
